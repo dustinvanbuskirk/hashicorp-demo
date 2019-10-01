@@ -1,0 +1,21 @@
+{
+    "type": "azure-arm",
+
+    "resource_group_name": "dustinvb",
+    "storage_account": "dustinvbvirtualmachines",
+
+    "capture_container_name": "images",
+    "capture_name_prefix": "packer",
+
+    "os_type": "Linux",
+    "image_publisher": "Canonical",
+    "image_offer": "UbuntuServer",
+    "image_sku": "14.04.4-LTS",
+
+    "azure_tags": {
+      "dept": "sales"
+    },
+
+    "location": "West US",
+    "vm_size": "Standard_A2"
+}
