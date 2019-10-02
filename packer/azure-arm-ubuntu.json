@@ -18,9 +18,6 @@
       "subscription_id": "{{user `subscription_id`}}",
       "tenant_id": "{{user `tenant_id`}}",
   
-      "managed_image_resource_group_name": "dustin-vb",
-      "managed_image_name": "dustin-ubuntu-nginx",
-  
       "os_type": "Linux",
       "image_publisher": "Canonical",
       "image_offer": "UbuntuServer",
