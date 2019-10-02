@@ -11,7 +11,6 @@
     "builders": [{
       "type": "azure-arm",
 
-      "access_key": "{{user `aws_access_key`}}",
       "client_id": "{{user `client_id`}}",
       "client_secret": "{{user `client_secret`}}",
       "resource_group_name": "{{user `resource_group_name`}}",
