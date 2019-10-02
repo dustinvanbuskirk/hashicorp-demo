@@ -28,8 +28,8 @@
           "task": "Image deployment"
       },
   
-      "location": "East US",
-      "vm_size": "Standard_DS2_v2"
+      "location": "East US 2",
+      "vm_size": "Standard_D2s_v3"
     }],
     "provisioners": [{
       "execute_command": "chmod +x {{ .Path }}; {{ .Vars }} sudo -E sh '{{ .Path }}'",
